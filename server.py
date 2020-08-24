@@ -25,7 +25,7 @@ async def cache_plot_data():
     response_reputation_holders = await util.query_all_rep_holders(alchemy_graphQL_url)
     reputation_holders = pd.DataFrame(response_reputation_holders)
     reputation_holders = util.clean_rep_holders_data(reputation_holders, 'dOrg')
-    return reputation_holders.to_json()
+    return reputation_holders.to_json(orient='records')
 
 # cache data when server starts
 data_cache = asyncio.run(cache_plot_data())
