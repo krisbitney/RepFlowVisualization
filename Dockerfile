@@ -10,4 +10,4 @@ RUN python server.py
 
 EXPOSE 5000
 
-CMD ["python", "server.py"]
+CMD ["python", "/server.py"]
