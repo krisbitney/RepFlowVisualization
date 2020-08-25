@@ -11,12 +11,16 @@ Requires python >= 3.7
 1. Download repo
 2. navigate to repo folder in terminal
 3. run "pip install --upgrade -r requirements.txt"
-    * Or "pip3 install --upgrade -r requirements.txt", see below
 4. run "python app/server.py serve"
 5. Navigate to localhost:8000 in browser
 
-Note that these instructions assume "pip" is an alias for a python 3.x pip installation.
-If you have Python 2.x and Python 3.x installed, use "pip3 install --upgrade -r requirements.txt"
+Note that these instructions assume:
+* "python" is an alias for python 3.x.
+* "pip" is an alias for a python 3.x pip installation.
+
+If you have Python 2.x and Python 3.x installed, steps 3 and 4 may need to be:
+ * "pip3 install --upgrade -r requirements.txt"
+ * "python3 app/server.py serve"
 
 # To Do
 * Implement features to simulate future reputation distributions
