@@ -22,7 +22,7 @@ If you have Python 2.x and Python 3.x installed, steps 3 and 4 may need to be:
  * "pip3 install --upgrade -r requirements.txt"
  * "python3 app/server.py serve"
 
-This app was tested with Python 3.7.4 on Windows and a Debian-based linux distribution. 
+These instructions were tested with Python 3.7.4 on Windows and a Debian-based linux distribution. 
 
 Linux users may need to update gcc (http://gcc.gnu.org/).
 You can update gcc on Debian-based distributions by running "apt-get update && apt-get install gcc".
