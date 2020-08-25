@@ -1,4 +1,4 @@
-import asyncio
+import asyncio, sys
 from pathlib import Path
 import uvicorn
 from starlette.applications import Starlette
@@ -8,7 +8,7 @@ from starlette.requests import Request
 from starlette.responses import Response, HTMLResponse, JSONResponse
 import pandas as pd
 
-import util
+from app import util
 
 # paths
 path = Path(__file__).parent
@@ -39,7 +39,7 @@ async def rep_data(request: Request):
 # app and routes
 routes = [
     Route('/', homepage),
-    Mount('/static', StaticFiles(directory=path/'static')),
+    Mount('static', StaticFiles(directory=path / 'static')),
     Route('/data', rep_data, methods=['GET'])
 ]
 app = Starlette(debug=True, routes=routes)
