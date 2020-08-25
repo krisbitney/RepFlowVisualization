@@ -10,7 +10,7 @@ Time: ~10 hours
 2. navigate to repo folder in terminal
 3. run "pip install requirements.txt"
 4. navigate to "app" folder (run "cd app")
-4. run "python server.py"
+4. run "python server.py serve"
 5. Navigate to localhost:8000 in browser
 
 # To Do
