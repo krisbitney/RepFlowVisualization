@@ -22,6 +22,8 @@ If you have Python 2.x and Python 3.x installed, steps 3 and 4 may need to be:
  * "pip3 install --upgrade -r requirements.txt"
  * "python3 app/server.py serve"
 
+This app was tested with Python 3.7.4. Please let me know if you have issues with installation.
+
 # To Do
 * Implement features to simulate future reputation distributions
   * Make slider to respond to events and change data (e.g. https://github.com/seiyria/bootstrap-slider + Plotly.react())
