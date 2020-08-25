@@ -8,7 +8,7 @@ Time: ~10 hours
 # Local Setup
 Requires python >= 3.7
 
-1. Download repo
+1. Download repo (e.g. "git clone https://github.com/krisbitney/RepFlowVisualization.git")
 2. navigate to repo folder in terminal
 3. run "pip install --upgrade -r requirements.txt"
 4. run "python app/server.py serve"
@@ -22,7 +22,12 @@ If you have Python 2.x and Python 3.x installed, steps 3 and 4 may need to be:
  * "pip3 install --upgrade -r requirements.txt"
  * "python3 app/server.py serve"
 
-This app was tested with Python 3.7.4. Please let me know if you have issues with installation.
+This app was tested with Python 3.7.4 on Windows and a Debian-based linux distribution. 
+
+Linux users may need to update gcc (http://gcc.gnu.org/).
+You can update gcc on Debian-based distributions by running "apt-get update && apt-get install gcc".
+
+Please let me know if you have issues with installation.
 
 # To Do
 * Implement features to simulate future reputation distributions
