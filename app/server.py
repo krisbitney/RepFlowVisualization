@@ -8,7 +8,7 @@ from starlette.requests import Request
 from starlette.responses import Response, HTMLResponse, JSONResponse
 import pandas as pd
 
-from app import util
+import util
 
 # paths
 path = Path(__file__).parent
