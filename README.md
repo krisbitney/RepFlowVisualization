@@ -1,12 +1,17 @@
 # Reputation Visualization
 Visualize distribution of dOrg member reputation
 
-Temporarily hosted at: 
+Temporarily hosted at: https://dorg-rep-flow-visualizer.onrender.com/
 
 Time: ~10 hours
 
-# Setup
-Download repo and run server.py. Navigate to localhost:8000 in browser.
+# Local Setup
+1. Download repo
+2. navigate to repo folder in terminal
+3. run "pip install requirements.txt"
+4. navigate to "app" folder (run "cd app")
+4. run "python server.py"
+5. Navigate to localhost:8000 in browser
 
 # To Do
 * Implement features to simulate future reputation distributions

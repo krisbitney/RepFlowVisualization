@@ -39,7 +39,7 @@ async def rep_data(request: Request):
 # app and routes
 routes = [
     Route('/', homepage),
-    Mount('static', StaticFiles(directory=path / 'static')),
+    Mount('/static', StaticFiles(directory=path / 'static')),
     Route('/data', rep_data, methods=['GET'])
 ]
 app = Starlette(debug=True, routes=routes)
